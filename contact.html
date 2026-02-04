@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Rismawati Appa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="navbar"></div>
+
+    <main class="section">
+        <div class="container">
+            <h1 class="text-center mb-2">Hubungi <span class="text-primary">Saya</span></h1>
+            <p class="text-center mb-4" style="color: var(--text-muted);">Silakan kirim pesan untuk kolaborasi atau
+                sekadar menyapa.</p>
+
+            <div class="flex"
+                style="flex-wrap: wrap; gap: 3rem; justify-content: center; max-width: 1000px; margin: 0 auto;">
+
+                <!-- Contact Info -->
+                <div style="flex: 1; min-width: 300px;">
+                    <div class="card h-100">
+                        <h3 class="mb-2">Informasi Kontak</h3>
+                        <ul style="display: flex; flex-direction: column; gap: 1.5rem;">
+                            <li class="flex" style="align-items: flex-start;">
+                                <div
+                                    style="background: #eff6ff; color: var(--primary); width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <h4 style="font-size: 1rem;">Email</h4>
+                                    <a href="mailto:rismawatiappa26@gmail.com"
+                                        style="color: var(--text-muted);">rismawatiappa26@gmail.com</a>
+                                </div>
+                            </li>
+                            <li class="flex" style="align-items: flex-start;">
+                                <div
+                                    style="background: #eff6ff; color: var(--primary); width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <h4 style="font-size: 1rem;">Lokasi</h4>
+                                    <p style="color: var(--text-muted);">Makassar, Indonesia</p>
+                                </div>
+                            </li>
+                            <li class="flex" style="align-items: flex-start;">
+                                <div
+                                    style="background: #eff6ff; color: var(--primary); width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                    <i class="fas fa-university"></i>
+                                </div>
+                                <div>
+                                    <h4 style="font-size: 1rem;">Kampus</h4>
+                                    <p style="color: var(--text-muted);">Universitas Indonesia Timur</p>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div style="margin-top: 2rem;">
+                            <h4 class="mb-1">Sosial Media</h4>
+                            <div class="flex">
+                                <a href="#" class="btn-outline"
+                                    style="padding: 0.5rem; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center; border-radius: 50%;"><i
+                                        class="fab fa-github"></i></a>
+                                <a href="#" class="btn-outline"
+                                    style="padding: 0.5rem; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center; border-radius: 50%;"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                <a href="#" class="btn-outline"
+                                    style="padding: 0.5rem; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center; border-radius: 50%;"><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div style="flex: 1.5; min-width: 300px;">
+                    <form class="card" action="#" method="POST"
+                        onsubmit="event.preventDefault(); alert('Terima kasih! Pesan Anda (simulasi) telah terkirim.');">
+                        <div class="mb-2">
+                            <label for="name" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Nama
+                                Lengkap</label>
+                            <input type="text" id="name" name="name" placeholder="Nama Anda" required
+                                style="width: 100%; padding: 0.75rem; border: 1px solid var(--border); border-radius: var(--radius-md); font-family: inherit;">
+                        </div>
+                        <div class="mb-2">
+                            <label for="email"
+                                style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Email</label>
+                            <input type="email" id="email" name="email" placeholder="email@contoh.com" required
+                                style="width: 100%; padding: 0.75rem; border: 1px solid var(--border); border-radius: var(--radius-md); font-family: inherit;">
+                        </div>
+                        <div class="mb-2">
+                            <label for="message"
+                                style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Pesan</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda di sini..."
+                                required
+                                style="width: 100%; padding: 0.75rem; border: 1px solid var(--border); border-radius: var(--radius-md); font-family: inherit; resize: vertical;"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Kirim Pesan</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <div id="footer"></div>
+    <script src="main.js"></script>
+</body>
+
+</html>

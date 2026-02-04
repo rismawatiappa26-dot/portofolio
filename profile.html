@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil - Rismawati Appa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="navbar"></div>
+
+    <main class="section">
+        <div class="container">
+            <h1 class="text-center mb-4">Tentang <span class="text-primary">Saya</span></h1>
+
+            <div class="card mb-4">
+                <div class="flex" style="flex-wrap: wrap; align-items: center; justify-content: center; gap: 3rem;">
+                    <div style="flex: 1; min-width: 300px; text-align: center;">
+                        <!-- Placeholder Image -->
+                        <div
+                            style="width: 250px; height: 250px; background-color: #e2e8f0; border-radius: 50%; margin: 0 auto; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+                            <i class="fas fa-user" style="font-size: 8rem; color: #cbd5e1;"></i>
+                            <!-- Ganti baris di atas dengan tag img jika sudah ada foto:
+                            <img src="foto-profil.jpg" alt="Rismawati Appa" style="width: 100%; height: 100%; object-fit: cover;"> 
+                            -->
+                        </div>
+                    </div>
+                    <div style="flex: 2; min-width: 300px;">
+                        <h2 class="mb-2">Rismawati Appa</h2>
+                        <ul class="mb-2" style="color: var(--text-muted);">
+                            <li class="mb-1"><i class="fas fa-graduation-cap text-primary" style="width: 24px;"></i>
+                                Mahasiswa Teknik Informatika</li>
+                            <li class="mb-1"><i class="fas fa-university text-primary" style="width: 24px;"></i>
+                                Fakultas Ilmu Komputer, Universitas Indonesia Timur</li>
+                        </ul>
+                        <p class="mb-2">
+                            Saya adalah mahasiswa Teknik Informatika yang memiliki ketertarikan mendalam pada dunia
+                            pengembangan web dan teknologi digital.
+                            Saya senang memecahkan masalah melalui kode dan merancang antarmuka pengguna yang intuitif.
+                        </p>
+                        <p>
+                            Saat ini saya sedang fokus mempelajari teknologi frontend modern dan manajemen basis data
+                            untuk membangun aplikasi web yang skalabel.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); margin-top: 3rem;">
+                <!-- Skills -->
+                <div>
+                    <h2 class="mb-2">Keahlian</h2>
+                    <div class="card">
+                        <ul style="display: flex; flex-direction: column; gap: 1rem;">
+                            <li>
+                                <div class="flex-between mb-1">
+                                    <span>HTML5 & CSS3</span>
+                                    <span class="text-primary font-bold">90%</span>
+                                </div>
+                                <div style="height: 8px; background: #e2e8f0; border-radius: 4px;">
+                                    <div
+                                        style="width: 90%; height: 100%; background: var(--primary); border-radius: 4px;">
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex-between mb-1">
+                                    <span>JavaScript</span>
+                                    <span class="text-primary font-bold">75%</span>
+                                </div>
+                                <div style="height: 8px; background: #e2e8f0; border-radius: 4px;">
+                                    <div
+                                        style="width: 75%; height: 100%; background: var(--primary); border-radius: 4px;">
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex-between mb-1">
+                                    <span>Python</span>
+                                    <span class="text-primary font-bold">60%</span>
+                                </div>
+                                <div style="height: 8px; background: #e2e8f0; border-radius: 4px;">
+                                    <div
+                                        style="width: 60%; height: 100%; background: var(--primary); border-radius: 4px;">
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex-between mb-1">
+                                    <span>UI/UX Design</span>
+                                    <span class="text-primary font-bold">80%</span>
+                                </div>
+                                <div style="height: 8px; background: #e2e8f0; border-radius: 4px;">
+                                    <div
+                                        style="width: 80%; height: 100%; background: var(--primary); border-radius: 4px;">
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div>
+                    <h2 class="mb-2">Pendidikan</h2>
+                    <div class="card">
+                        <div style="border-left: 3px solid var(--primary); padding-left: 1.5rem; position: relative;">
+                            <!-- Item 1 -->
+                            <div class="mb-4">
+                                <h3 style="font-size: 1.1rem;">Teknik Informatika</h3>
+                                <p class="text-primary" style="font-weight: 500;">Universitas Indonesia Timur</p>
+                                <p style="font-size: 0.9rem; color: var(--text-muted);">2022 - Sekarang</p>
+                            </div>
+                            <!-- Item 2 -->
+                            <div>
+                                <h3 style="font-size: 1.1rem;">SMA/SMK</h3>
+                                <p class="text-primary" style="font-weight: 500;">Alumni</p>
+                                <p style="font-size: 0.9rem; color: var(--text-muted);">2019 - 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="footer"></div>
+    <script src="main.js"></script>
+</body>
+
+</html>
